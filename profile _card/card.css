@@ -49,10 +49,8 @@ footer{
 button:hover{
     opacity: .6;
 }
-.image
-{
+.image:hover{
+    opacity: .4;
     height: 35px;
-}
-.links:hover{
-    opacity: .6;
+    
 }
