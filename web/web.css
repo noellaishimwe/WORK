@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* img{
+    
+    width: 4000px;
+    height: 500px;
+    background-repeat: no-repeat
+} */
+body{
+    background-image: url(city.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: -200px;
+    color: rgb(3, 3, 3);
+}
+.menu-bar ul li{
+    font-style:normal;
+    margin: 20px;
+    padding:15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(7, 6, 6);
+    text-transform: uppercase;
+}
+.logo{
+    font-size:58px;
+    font-weight:500;
+    color: rgb(255, 255, 8);
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;   
+}
+.word{
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    left: 10px;
+}
+input[name="1"]{
+    font-family: 'Poppins';
+    margin-top: 90px;
+    margin-left: px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background: yellow;
+}
+.menu-bar a{
+    height: 45px;
+    width: 90px;
+    left: 700px;
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+}
+.menu-bar a:before{
+    position: absolute;
+    height: 2px;
+    width: 12px;
+    border-radius: 1px;
+    content:"" ;
+    bottom: 0;
+    background-color: #ffffff;
+    visibility: hidden;
+    transform: scale(0);
+    transition: all 300ms ease;
+}
+.menu-bar a:hover :before{
+    visibility:visible;
+    transform:scaleX(1);
+}
+.menu-bar a:hover{
+    color:rgb(255, 255, 8);
+}
+.image{
+    background:rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    border: 2px;
+    border-radius: 10px;
+}
+.Our{
+    position: absolute;
+    z-index: 1;
+    top: 600px;
+    left: 10px;
+}
+.wave{
+    width: 900px;
+    height: 900px;
+    bottom: 90000px;
+}
+.footer_distributed{
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 39vh;
+    z-index: 1;
+    /* top: 800px;
+    left: 10px; */
+    background-color: #000;
+}
